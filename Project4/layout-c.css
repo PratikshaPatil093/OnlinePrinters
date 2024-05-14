@@ -1,0 +1,30 @@
+.mybox1{
+    background-color: yellow;
+padding: 20px;
+margin:20px 10px;
+min-height: 200px;
+}
+h1{
+    color: red;
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    h1{
+        color: blue;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   
+  }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h1{
+        color: pink;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }

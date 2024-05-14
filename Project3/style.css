@@ -1,0 +1,182 @@
+/* global view */
+body{
+  font-family: 'Asap', sans-serif;
+  font-weight: 400;
+  background-color: #EBEBEB;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.container{
+ 
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+      padding-top: 140px;
+}
+.header-container{
+  background-color: rgb(60, 60, 60);
+  min-height: 100px;
+  width: 100%;
+  position: fixed;
+  justify-content: center;
+  
+}
+header{
+  max-width: 1024px;
+  /* background-color: royalblue; */
+   min-height: 100px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ margin: 0 auto; 
+}
+.heighlight{
+  font-weight: 700;
+  
+}
+
+
+.mybutton{
+  border-style:solid ;
+   font-weight: 700;
+  border-width: 1px;
+  padding: 10px 25px;
+  margin-left: 20px;
+}
+
+.footer-container{
+  background-color: rgb(60, 60, 60);
+  min-height: 100px;
+
+}
+.col{
+    width: 30%;
+    margin-bottom: 40px;
+    background-color: skyblue;  color:white;
+    
+}
+.col p{
+  color: white;
+  font-size: 0.825rem;
+  padding: 20px 25px;
+  line-height: 1.25rem;
+}
+.col p::first-line{
+  font-weight: 700;
+
+}
+
+.hide-desktop-only{
+
+    display: none;
+}
+.col img{
+  width: 100%;
+  height: auto;
+}
+.mob-wrapper{
+  display: none;
+}
+
+/* tablet view */
+@media(max-width:768px){
+    .col{
+      width: 45%;
+    }
+    .hide-desktop-only{
+
+        display: block;
+    }
+    
+header{
+  display: block;
+  text-align: center; 
+  width: 100%;
+}
+nav{
+  display: none; 
+  
+}
+nav a{
+  display: block;
+  
+}
+.header-container{
+  position: relative;
+}
+.container{
+  padding-top: 40px;
+}
+.logo{
+  padding: 40px 0px;
+}
+.mybutton{
+  margin-left: 0;
+}
+.mob-nav{
+  display: none;
+  position: absolute;
+  padding-top: 10px;
+}
+.mob-wrapper{
+  display: block;
+  padding: 30px;
+}
+.navbutton{
+  display: block;
+background-color: coral;
+padding: 15px 30px;
+text-align: center;
+
+}
+}
+
+
+/* mobile view */
+@media(max-width:400px){
+  .col{
+width: 100%;
+  }
+  .hide-mobile{
+      display: none;
+  }
+
+header{
+  display: block;
+  text-align: center; 
+  width: 100%;
+}
+nav a{
+  display: block;
+  
+}
+.header-container{
+  position: relative;
+}
+.container{
+  padding: 40px;
+}
+.logo{
+  padding: 40px 0px;
+}
+.mybutton{
+  margin-left: 0;
+}
+.mob-wrapper{
+display: block;
+}
+}
+
+
+
+
+
+
+
+
